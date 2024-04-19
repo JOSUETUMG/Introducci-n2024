@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <li>
+        <a href="http://127.0.0.1:5500/Curriculum.html">Regresar Pagina de inicio </a>
+    <br>
+    </li>
+    <h2>Contactar</h2>
+
+<form action="http://127.0.0.1:5500/miScript.php" method="get">
+    <label for="to">Para:</label>
+    <input id="to" type="email,telefono,redes sociales">
+<br>
+<p>Resuelve este CAPTCHA para saber mi email: ___@gmail.com</p>
+
+<label for="topic">A travez de:</label>
+    <select id="topic" name="topic">
+        <option> --Elige una opcion-- </option>
+        <option value="email">Email</option>
+        <option value="telefono">Telefono</option>
+        <option value="redes sociales">Redes Sociales</option>
+    </select>
+    <label for="subject">Asunto:</label>
+    <input id="subjet" name="subject" type="text">
+    <label for="body"> Cuerpo:</label>
+    <textarea id="body" name="body"></textarea>
+
+    <button type="submit">Envia</button>
+
+</form>
+
+</body>
+</html>
