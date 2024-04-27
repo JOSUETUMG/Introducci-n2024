@@ -76,7 +76,7 @@ li{
 
 .barra{
   display: grid;
-  background-color: #d87ba9;
+  background-color:rgba(245, 172, 62, 0.925);
   width: 60%;
   text-align: center;
     color: rgb(36, 8, 8);
@@ -100,7 +100,7 @@ li{
 }
 .foster{
   margin-right: 5px;
-  background-color: rgb(119, 224, 57);
+  background-color: rgba(57, 224, 57, 0.945);
   color: rgb(17, 13, 13);
   width: 100%;
   justify-self: right;
