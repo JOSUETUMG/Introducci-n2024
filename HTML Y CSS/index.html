@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <title>AppDeGatos</title>
+      <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <h2 id="titulo-app-gatos">AppDeGatos</h2>
+    <main>
+      <h3>Imágenes de Gatos</h3>
+      <!--TODO: Agregar enlace a imagenes de gatos-->
+      <p>Haz click aqui para ver mas <a href="#" 
+        target="_blank" rel="noopener 
+        noreferrer">imagenes de gatos.</a></p>
+
+      <a href="#" 
+      target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/fcc-relaxing-cat" 
+      class="bordes-redondeados" alt="un lindo gatito naranja
+      recostado sobre su espalda"></a>
+      <hr>
+      <h3>Listas de Gatos</h3>
+
+        <div>
+          <p>Cosas que los gatos <em>aman</em>:</p>
+          <ul id="lista-gatos-aman">
+            <li>Menta gatuna</li>
+            <li>Apuntador Láser</li>
+            <li><s>Lasaña</s></li>
+          </ul>
+    
+          <img src="imagenes/lasana.jpeg" class="bordes-redondeados" alt="lasaña">
+
+            <p>Cosas que gatos <strong>odian</strong>:</p>
+            <ol id="lista-gatos-odian">
+              <li>Tratamiento antipulgas</li>
+              <li>Truenos</li>
+              <li>Otros gatos</li>
+            </ol>
+          </div>
+          <img id="imagen-de-gatos" src="imagenes/gatos.jpeg" class="bordes-redondeados">
+
+
+      <form action="/enviar-respuesta">
+
+        <!-- Botones de Radio-->
+        <label for="interior">
+          <input id="interior" type="radio" value="interior" 
+          name="interior-exterior" checked>Interior
+        </label><br>
+        <label for="exterior">
+          <input id="exterior" type="radio" value="exterior" 
+          name="interior-exterior" >Exterior
+        </label><br>
+        
+        <!-- Casilla de verificacion -->
+        <label for="cariñoso">
+          <input id="cariñoso" type="checkbox" value="cariñoso" 
+          name="personalidad" checked>Cariñoso <br>
+        </label>
+        <label for="peresoso">
+          <input id="peresoso" type="checkbox" value="peresoso"
+          name="personalidad" >Peresoso <br>
+        </label>
+        <label for="enérgetico">
+          <input id="enérgetico" type="checkbox" value="enérgetico"
+          name="personalidad" >Enérgetico
+        </label> <br>
+      
+
+
+        <!-- Texto y boton Enviar -->
+        <input type="text" placeholder="URL de la foto de tu gato" required><br>
+        <button type="submit">Enviar
+        </button>
+      </form>
+   </main>
+      <footer>
+        <p><small>Sin Derechos de Autor 
+          <a href="https://www.freecodecamp.org/espanol/" 
+          target="_blank" rel="noopener noreferrer" >freecodecamp.org</a></p></small>
+      </footer>
+  </body>
+</html>
