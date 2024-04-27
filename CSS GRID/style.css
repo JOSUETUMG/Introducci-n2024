@@ -1,32 +1,112 @@
-#pagina-web{
-    padding: 25px;
-    margin: 25px;
-    background-color: blue;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    border-radius: 10px;
+#grid{
+  padding-top: auto;
+  margin-top: auto;
+  display: grid;
+  background-color: #0000ff;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  
+}
+li{
+  color: white;
+}
+#op1{
+  
+  padding-block: 2px;
+  margin: 5px;
+  display: grid;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 5%;
+  background-color: #0000ff;
+  border-radius: 10%;
+
 }
 
-.navegar-menu{
-    color: white;
-}
-a{
-    color: white;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+#op2{
+  padding-block: 2px;
+  margin: 5px;
+  display: grid;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 5%;
+  background-color: #0000ff;
+  border-radius: 10%;
+
 }
 
-.rectangulo{
-    padding: 10px;
-    margin: 10px;
+#op3{
+  padding-block: 2px;
+  margin: 5px;
+  display: grid;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 5%;
+  background-color: #0000ff;
+  border-radius: 10%;
+
 }
 
-.op-1{
-    background-color: blue ;
-    border-radius: 10%;
+#op4{
+  padding-block: 2px;
+  margin: 5px;
+  display: grid;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 5%;
+  background-color: #0000ff;
+  border-radius: 10%;
+  border-bottom: 5px;
+
 }
-.op-2{
-    background-color: blue ;
-    border-radius: 10%;
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: minmax(100px,);
 }
+
+.barra{
+  display: grid;
+  background-color: #d87ba9;
+  width: 60%;
+  text-align: center;
+    color: rgb(36, 8, 8);
+  justify-self:right;
+  justify-content: left;
+  align-self: start;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+}
+
+.wrapper .cuerpo{
+  display: grid;
+  background-color: white;
+  width: 100%;
+    color: rgb(36, 8, 8);
+  justify-self: right;
+  justify-items: center;
+  align-self: start;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+}
+.foster{
+  margin-right: 5px;
+  background-color: rgb(119, 224, 57);
+  color: rgb(17, 13, 13);
+  width: 100%;
+  justify-self: right;
+  justify-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+}
+
+
