@@ -1,0 +1,54 @@
+body{
+    
+    background-image: url('https://img.freepik.com/vector-premium/fondo-calculadora-lapices_188544-6127.jpg');
+}
+.calculator {
+    background-color: rgb(42, 161, 165);
+    max-height: 300px;
+    max-width: 300px; /* Establece el ancho máximo de la calculadora */
+    margin: 100px auto; /* Centra la calculadora horizontalmente en la página */
+    border: 1px solid #1f0202; /* Establece un borde de 1px sólido con color gris claro */
+    border-radius: 10px; /* Aplica un radio de borde de 5px para bordes redondeados */
+    padding: 20px; /* Añade un espacio de relleno interno de 10px */
+}
+
+#screen {
+    width: 90%; /* Establece el ancho del campo de texto al 100% del contenedor */
+    margin-bottom: 10px; /* Añade un margen inferior de 10px */
+    padding: 10px; /* Añade un espacio de relleno interno de 10px */
+    font-size: 18px; /* Establece el tamaño de fuente en 18px */
+    border-radius: 5px; /* Aplica un radio de borde de 5px para bordes redondeados */
+    border: 1px solid #f5eeee; /* Establece un borde de 1px sólido con color gris claro */
+}
+
+.buttons {
+    display: grid; /* Utiliza el modelo de diseño grid para los botones */
+    grid-template-columns: repeat(4, 1fr); /* Crea 4 columnas con igual ancho */
+    gap: 5px; /* Establece un espacio de separación de 5px entre los botones */
+}
+
+button {
+    padding: 10px; /* Añade un espacio de relleno interno de 10px */
+    font-size: 18px; /* Establece el tamaño de fuente en 18px */
+    border-radius: 5px; /* Aplica un radio de borde de 5px para bordes redondeados */
+    border: 1px solid #097a2b85; /* Establece un borde de 1px sólido con color gris claro */
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa sobre el botón */
+}
+
+button:hover {
+    background-color: #7ccc9d; /* Cambia el color de fondo del botón al pasar el cursor */
+}
+
+
+.light-blue{
+    color: black;
+    background-color: solid #0a681762;
+    border-color: rgb(29, 28, 28);
+    text-decoration: none;
+    
+}
+
+.light-blue:hover{
+    background-color: #00ff62a1;
+    text-decoration-color: #7ccc9d;
+}

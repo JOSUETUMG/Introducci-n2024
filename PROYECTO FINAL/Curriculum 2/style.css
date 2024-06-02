@@ -1,0 +1,87 @@
+/* Estilos para el cuerpo del currículum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsla(260, 6%, 32%, 0.742);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    gap: 5%;
+}
+
+/* Estilos para el encabezado */
+h1 {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    margin-top: 100;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para los títulos de secciones */
+h1, h3 {
+    text-transform: uppercase;
+    max-width: 70%;
+    border-radius: 50%;
+}
+
+/* Estilos para los párrafos */
+p {
+    margin-bottom: 50px;
+    
+}
+
+/* Estilos para las listas */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para los ítems de la lista */
+li {
+    margin-bottom: 5px;
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #00f2ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el formulario de contacto */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 10%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Estilos para el botón */
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}

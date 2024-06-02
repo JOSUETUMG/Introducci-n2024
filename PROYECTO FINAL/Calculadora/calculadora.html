@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace a la hoja de estilos CSS -->
+</head>
+<body>
+    <button class="button light-blue" ><a href="http://localhost:5500/index.html" class="light-blue">Regresar</a></button>
+    <div class="calculator">
+        <input type="text" id="screen" readonly> <!-- Campo de texto de solo lectura para mostrar la entrada y resultados -->
+        <div class="buttons">
+            <!-- Botones para los dígitos y operaciones de la calculadora -->
+            <button onclick="addToScreen('9')">9</button> <!-- Botón que añade el dígito 9 a la pantalla -->
+            <button onclick="addToScreen('8')">8</button> <!-- Botón que añade el dígito 8 a la pantalla -->
+            <button onclick="addToScreen('7')">7</button> <!-- Botón que añade el dígito 7 a la pantalla -->
+            <button onclick="addToScreen('+')">+</button> <!-- Botón que añade la operación de suma a la pantalla -->
+            <button onclick="addToScreen('6')">6</button> <!-- Botón que añade el dígito 6 a la pantalla -->
+            <button onclick="addToScreen('5')">5</button> <!-- Botón que añade el dígito 5 a la pantalla -->
+            <button onclick="addToScreen('4')">4</button> <!-- Botón que añade el dígito 4 a la pantalla -->
+            <button onclick="addToScreen('-')">-</button> <!-- Botón que añade la operación de resta a la pantalla -->
+            <button onclick="addToScreen('2')">2</button> <!-- Botón que añade el dígito 2 a la pantalla -->
+            <button onclick="addToScreen('3')">3</button> <!-- Botón que añade el dígito 3 a la pantalla -->
+            <button onclick="addToScreen('1')">1</button> <!-- Botón que añade el dígito 1 a la pantalla -->
+            <button onclick="addToScreen('*')">*</button> <!-- Botón que añade la operación de multiplicación a la pantalla -->
+            <button onclick="addToScreen('0')">0</button> <!-- Botón que añade el dígito 0 a la pantalla -->
+            <button onclick="clearScreen()">C</button> <!-- Botón que limpia la pantalla -->
+            <button onclick="calculate()">=</button> <!-- Botón que realiza el cálculo -->
+            <button onclick="addToScreen('/')">/</button> <!-- Botón que añade la operación de división a la pantalla -->
+            <button onclick="addToScreen('.')">.</button> <!-- Botón que añade el punto decimal a la pantalla -->
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Enlace al archivo JavaScript que contiene las funciones de la calculadora -->
+
+    <ul>
+    
+    </ul>
+
+</body>
+</html>

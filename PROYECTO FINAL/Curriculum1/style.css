@@ -1,0 +1,53 @@
+a{
+    text-decoration: none;
+    color: rgb(233, 229, 229);
+}
+
+body{
+    background-color: rgb(69, 127, 165);
+}
+
+hr{
+    color: black;
+}
+
+.nombre{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(10, 88, 20, 0.678);
+    max-width: 30%;
+    border-radius: 10px;
+    padding: 5px;
+    color: blanchedalmond;
+
+}
+
+button{
+    background-color: black;
+    padding-block: 5px;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(111, 145, 18, 0.678);
+    max-width: 30%;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    color: blanchedalmond;
+
+}
+
+.contenedor{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+table{
+    border-collapse: collapse;
+    border-color: black;
+    padding: auto;
+}
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+}
